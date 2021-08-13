@@ -1,0 +1,42 @@
+/* 改变主题色变量 */
+
+$--color-primary: #0b4873;
+
+/* 改变 icon 字体路径变量，必需 */
+
+$--font-path: '~element-ui/lib/theme-chalk/fonts';
+@import "~element-ui/packages/theme-chalk/src/index";
+.el-tabs {
+    &__item,
+    &__nav-next,
+    &__nav-prev {
+        line-height: 3rem;
+        height: 3rem;
+    }
+    &__item {
+        font-size: 1.5rem;
+        &.is-active {
+            font-weight: bolder;
+        }
+    }
+    &__nav-next,
+    &__nav-prev {
+        font-size: 1rem;
+    }
+    .el-tabs__nav-wrap.is-scrollable {
+        padding: 0 2rem;
+    }
+}
+
+.el-message-box {
+    width: 100%;
+    max-width: 350px;
+    &__wrapper {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    &__message {
+        white-space: pre-line;
+    }
+}

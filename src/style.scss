@@ -1,0 +1,51 @@
+/*------
+VAR
+---------*/
+
+$white: #f7f7f7;
+$black: #333333;
+$primary: #0b4873;
+$success:#aed390;
+$danger:#f89d9d;
+$warning:#f9c679;
+$info:#90cadc;
+$blueAux1: #173F73;
+$blueAux2: #1D4B73;
+$blueAux3: #3A758C;
+$blueAux4: #68A0A6;
+$blueAux5: #CCD9B8;
+$maxWidth:1200px;
+$boxShadow: 0 8px 10px 1px rgba(0, 0, 0, 0.14),
+0 3px 14px 2px rgba(0, 0, 0, 0.12),
+0 5px 5px -3px rgba(0, 0, 0, 0.2);
+
+/*----------
+CUSTOM
+----------*/
+
+.fade-enter-active,
+.fade-leave-active {
+    transition: opacity 0.2s;
+}
+
+.fade-enter,
+.fade-leave-to {
+    opacity: 0;
+}
+
+html,
+body {
+    font-family: "Microsoft YaHei", "微软雅黑", "Helvetica Neue", Helvetica, "PingFang SC", "Hiragino Sans GB", Arial, sans-serif;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    background: $white;
+    color: $black;
+    overflow-x: hidden;
+    letter-spacing: 2px;
+    font-size: 14px;
+}
+
+a {
+    text-decoration: none;
+    color: $primary;
+}
